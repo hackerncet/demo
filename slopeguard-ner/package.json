@@ -1,0 +1,1 @@
+{"name":"slopeguard-ner","private":true,"version":"1.0.0","scripts":{"dev":"node preview.mjs","test":"python -m pytest -q"}}

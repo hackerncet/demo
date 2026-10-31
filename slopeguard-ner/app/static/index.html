@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#123b38"><meta name="description" content="SlopeGuard NER: explainable landslide risk intelligence, GIS monitoring and offline field reporting for SIH26001.">
+<title>SlopeGuard NER · Landslide Intelligence</title>
+<link rel="icon" href="/static/logo.svg" type="image/svg+xml"><link rel="manifest" href="/static/manifest.json">
+<link rel="stylesheet" href="/static/vendor/leaflet.css"><link rel="stylesheet" href="/static/style.css">
+<script defer src="/static/vendor/leaflet.js"></script><script defer src="/static/app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<aside class="sidebar" id="sidebar">
+ <a class="brand" href="#overview"><img src="/static/logo.svg" alt=""><span>SlopeGuard<small>NORTH EAST INTELLIGENCE</small></span></a>
+ <div class="workspace"><span class="workspace-icon">NE</span><div>Regional command<small>North Eastern Region, India</small></div><span class="chev">⌄</span></div>
+ <p class="nav-label">WORKSPACE</p><nav aria-label="Main navigation">
+ <a href="#overview" data-route="overview"><i data-icon="grid"></i>Overview</a>
+ <a href="#map" data-route="map"><i data-icon="map"></i>Risk explorer<span class="nav-pill">GIS</span></a>
+ <a href="#forecast" data-route="forecast"><i data-icon="activity"></i>Forecast & simulator</a>
+ <a href="#reports" data-route="reports"><i data-icon="flag"></i>Field reports<span class="nav-count" id="report-count">3</span></a>
+ <a href="#alerts" data-route="alerts"><i data-icon="bell"></i>Alert center<span class="alert-dot"></span></a>
+ <p class="nav-label">PLATFORM</p>
+ <a href="#sources" data-route="sources"><i data-icon="database"></i>Data & model</a>
+ <a href="#briefing" data-route="briefing"><i data-icon="presentation"></i>Project briefing</a>
+ </nav>
+ <div class="sidebar-bottom"><div class="region-card"><div class="region-orbit">⌁</div><strong>Eight states. One view.</strong><p>Turning scattered signals into coordinated action.</p><a href="#briefing">Explore the project <span>↗</span></a></div><button class="account" id="account-button"><span class="avatar">G</span><span id="account-label">Guest workspace<small>Sign in for response tools</small></span><i data-icon="login"></i></button></div>
+</aside>
+<div class="shell">
+ <header class="topbar"><div class="breadcrumb"><button class="icon-btn mobile-toggle" aria-label="Open navigation" id="menu-button"><i data-icon="menu"></i></button><span>Workspace</span><span>/</span><strong id="breadcrumb">Overview</strong></div><div class="top-actions"><span class="network" id="network"><b></b>Online</span><button class="icon-btn" id="help-button" aria-label="Open project briefing"><i data-icon="help"></i></button><button class="top-avatar" id="top-account" aria-label="Sign in">G</button></div></header>
+ <main id="main" tabindex="-1"><div class="loading"><span class="spinner"></span>Preparing the regional workspace…</div></main>
+ <footer><span>SlopeGuard NER <span class="footer-dot">·</span> SIH26001</span><span>Demonstration platform · Official decisions require field validation</span><a href="/docs" target="_blank" rel="noopener">API documentation ↗</a></footer>
+</div>
+<dialog id="modal"><div id="modal-content"></div></dialog><div id="toast" role="status" aria-live="polite"></div>
+</body></html>

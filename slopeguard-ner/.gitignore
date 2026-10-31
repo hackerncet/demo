@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.db
+*.db-*
+.env
+*.joblib
+node_modules/
+test-results/
