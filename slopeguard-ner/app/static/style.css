@@ -9,3 +9,5 @@
 
 /* Readable text contrast for operational screens. */
 .subtitle,.body-text,.form-note,.report-card p,.source-card p,.step p,.alert-card p{color:#647568}.field label,.driver,.priority-info p,td{color:#65765f}.stat-label,.stat-foot,.panel-head p,.chart-labels,.map-legend,.coords,.alert-card small{color:#74816d}.report-card h3,.source-card h3,.step h3,.alert-card h3{color:#3f6245}.nav-label{color:#758173}
+
+.leaflet-control-layers-toggle{background-image:none!important;display:grid!important;place-items:center;color:#6b8064}.leaflet-control-layers-toggle:after{content:"☷";font-size:24px;line-height:1}
